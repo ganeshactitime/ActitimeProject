@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="12" passed="6" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[added customer]]>
+    </line>
+    <line>
+      <![CDATA[edited customer]]>
+    </line>
+    <line>
+      <![CDATA[edited customer]]>
+    </line>
+    <line>
+      <![CDATA[not visited]]>
+    </line>
+    <line>
+      <![CDATA[edited customer]]>
+    </line>
+    <line>
+      <![CDATA[visited upvan]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-26T10:01:58 IST" name="Suite" finished-at="2022-11-26T10:01:58 IST" duration-ms="32">
+    <groups>
+      <group name="regression">
+        <method signature="Thane.editCustomer()[pri:0, instance:com.Actitime.testscripts.Thane@62230c58]" name="editCustomer" class="com.Actitime.testscripts.Thane"/>
+        <method signature="Thane.upvan()[pri:0, instance:com.Actitime.testscripts.Thane@62230c58]" name="upvan" class="com.Actitime.testscripts.Thane"/>
+        <method signature="createCustomer1.addCustomer()[pri:0, instance:com.Actitime.testscripts.createCustomer1@482bce4f]" name="addCustomer" class="com.Actitime.testscripts.createCustomer1"/>
+        <method signature="createCustomer1.editCustomer()[pri:0, instance:com.Actitime.testscripts.createCustomer1@482bce4f]" name="editCustomer" class="com.Actitime.testscripts.createCustomer1"/>
+        <method signature="kalyan.editCustomer()[pri:0, instance:com.Actitime.testscripts.kalyan@3d1cfad4]" name="editCustomer" class="com.Actitime.testscripts.kalyan"/>
+        <method signature="kalyan.ganeshGhat()[pri:0, instance:com.Actitime.testscripts.kalyan@3d1cfad4]" name="ganeshGhat" class="com.Actitime.testscripts.kalyan"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="Thane.editCustomer()[pri:0, instance:com.Actitime.testscripts.Thane@62230c58]" name="editCustomer" class="com.Actitime.testscripts.Thane"/>
+        <method signature="createCustomer1.addCustomer()[pri:0, instance:com.Actitime.testscripts.createCustomer1@482bce4f]" name="addCustomer" class="com.Actitime.testscripts.createCustomer1"/>
+        <method signature="kalyan.editCustomer()[pri:0, instance:com.Actitime.testscripts.kalyan@3d1cfad4]" name="editCustomer" class="com.Actitime.testscripts.kalyan"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-11-26T10:01:58 IST" name="Test" finished-at="2022-11-26T10:01:58 IST" duration-ms="32">
+      <class name="com.Actitime.testscripts.createCustomer1">
+        <test-method signature="addCustomer()[pri:0, instance:com.Actitime.testscripts.createCustomer1@482bce4f]" started-at="2022-11-26T10:01:58 IST" name="addCustomer" finished-at="2022-11-26T10:01:58 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[added customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addCustomer -->
+        <test-method signature="editCustomer()[pri:0, instance:com.Actitime.testscripts.createCustomer1@482bce4f]" started-at="2022-11-26T10:01:58 IST" name="editCustomer" finished-at="2022-11-26T10:01:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[edited customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+      </class> <!-- com.Actitime.testscripts.createCustomer1 -->
+      <class name="com.Actitime.testscripts.Thane">
+        <test-method signature="editCustomer()[pri:0, instance:com.Actitime.testscripts.Thane@62230c58]" started-at="2022-11-26T10:01:58 IST" name="editCustomer" finished-at="2022-11-26T10:01:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[edited customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method signature="upvan()[pri:0, instance:com.Actitime.testscripts.Thane@62230c58]" started-at="2022-11-26T10:01:58 IST" name="upvan" finished-at="2022-11-26T10:01:58 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[visited upvan]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- upvan -->
+      </class> <!-- com.Actitime.testscripts.Thane -->
+      <class name="com.Actitime.testscripts.kalyan">
+        <test-method signature="editCustomer()[pri:0, instance:com.Actitime.testscripts.kalyan@3d1cfad4]" started-at="2022-11-26T10:01:58 IST" name="editCustomer" finished-at="2022-11-26T10:01:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[edited customer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editCustomer -->
+        <test-method signature="ganeshGhat()[pri:0, instance:com.Actitime.testscripts.kalyan@3d1cfad4]" started-at="2022-11-26T10:01:58 IST" name="ganeshGhat" finished-at="2022-11-26T10:01:58 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[not visited]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ganeshGhat -->
+      </class> <!-- com.Actitime.testscripts.kalyan -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
